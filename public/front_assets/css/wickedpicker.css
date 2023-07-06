@@ -1,0 +1,82 @@
+.wickedpicker {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: #fc6003;
+  margin: 0 auto;
+  border-radius: 0.1px;
+  width: 270px;
+  height: 130px;
+  font-size: 14px;
+  display: none;
+  box-shadow: 0px 15px 3px #ccc;
+}
+  .wickedpicker__title, .wickedpicker__controls, .wickedpicker__controls__control, .wickedpicker__controls__control--separator, .wickedpicker__controls__control-up, .wickedpicker__controls__control-down {
+  text-align: center;background: #fff; }
+  .wickedpicker__title {
+    background-image: -webkit-linear-gradient(top, #fc6003 0%, #fc6003 100%);
+    background-image: linear-gradient(to bottom, #fc6003 0%, #fc6003 100%);
+    position: relative;
+    background: #fc6003;
+    margin: 0 auto;
+    border-bottom: 1px solid #fc6003;
+    padding: 12px 11px 10px 15px;
+    color: #ffffff;
+    font-size: inherit; }
+  .wickedpicker__close {
+    -webkit-transform: translateY(-25%);
+    -moz-transform: translateY(-25%);
+    -ms-transform: translateY(-25%);
+    -o-transform: translateY(-25%);
+    transform: translateY(-25%);
+    position: absolute;
+    top: 25%;
+    right: 10px;
+    color: #34495e;
+    cursor: pointer; }
+    .wickedpicker__close:before {
+      content: '\00d7'; }
+  .wickedpicker__controls {
+    padding: 10px 0;
+    line-height: normal;
+    margin: 0; }
+    .wickedpicker__controls__control, .wickedpicker__controls__control--separator {
+      vertical-align: middle;
+      display: inline-block;
+      font-size: inherit;
+      margin: 0 auto;
+      width: 35px;
+      letter-spacing: 1.3px; }
+      .wickedpicker__controls__control-up, .wickedpicker__controls__control-down {
+        color: #1515158f;
+        position: relative;
+        display: block;
+        margin: 3px auto;
+        font-size: 18px;
+        cursor: pointer; }
+      .wickedpicker__controls__control-up:before {
+        content: '\f077'; }
+      .wickedpicker__controls__control-down:after {
+        content: '\f078'; }
+      .wickedpicker__controls__control--separator {
+        width: 5px; }
+      .hover-state {
+  color: #fc6003; }
+
+.fontello:before, .wickedpicker__controls__control-up:before, .fontello-after:after, .wickedpicker__controls__control-down:after {
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: .2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
